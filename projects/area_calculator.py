@@ -1,3 +1,5 @@
+#!/bin/python3
+
 # area calculator computes and prints the area of shapes
 
 option = input("Enter C for circle or T for triangle: ")
