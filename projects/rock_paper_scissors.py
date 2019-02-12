@@ -6,9 +6,9 @@ from random import randint
 
 options = ["rock", "paper", "scissors"]
 message = {
-    "tie":"Yawn, it's a tie!",
-    "won":"Yay you won!",
-    "lost":"Aww you lost!"
+    "tie": "Yawn, it's a tie!",
+    "won": "Yay you won!",
+    "lost": "Aww you lost!"
 }
 
 def decide_winner(user_choice, computer_choice):
@@ -17,7 +17,7 @@ def decide_winner(user_choice, computer_choice):
     if(user_choice == computer_choice):
         print(messages["tie"])
     #scenarios where the user wins
-    elif((user_choice="rock" & computer_choice="scissors") | (user_choice="paper" & computer_choice="rock") | (user_chocie="scissors" & computer_choice="paper")):
+    elif((user_choice="rock" & computer_choice="scissors") | (user_choice="paper" & computer_choice="rock") | (user_choice="scissors" & computer_choice="paper")):
         print(messages["won"])
     #scenarios where the user loses
     else:
