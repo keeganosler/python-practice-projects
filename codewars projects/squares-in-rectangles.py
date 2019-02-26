@@ -1,3 +1,5 @@
+#determines whether or not two squares can fit inside of a rectangle of a given size
+
 def can_fit(s1, s2, r1, r2):
     rec_area = r1*r2
     squares_area = s1 + s2
